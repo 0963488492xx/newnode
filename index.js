@@ -23,6 +23,9 @@ app.get("/", (req, res) => {
     res.send("Node API OK");
 });
 
+
+
+
 app.get("/api/products", async (req, res) => {
 
     try {
