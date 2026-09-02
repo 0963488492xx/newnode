@@ -1,5 +1,5 @@
 FROM node:24.20.0
-WORKDIR /user/src/app/vue
+WORKDIR /user/src/app
 COPY package*.json ./
 RUN ["npm", "install"]
 COPY . .
