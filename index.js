@@ -23,8 +23,7 @@ app.get("/", (req, res) => {
     res.send("Node API OK");
 });
 
-
-
+// GET /api/products
 
 app.get("/api/products", async (req, res) => {
 
